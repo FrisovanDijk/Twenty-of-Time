@@ -20,3 +20,6 @@ This is an easy part to remove. When you have the theme installed, go to *Appear
 ### Editing the colors
 For this, you will need to use SASS. This is a css preprocessor. The project uses several sass files, so you will need to do this locally with a compiler. I use [koala](http://koala-app.com/). Inside the theme folder, open `partials/_variables.scss' and edit the colors at will. It already has a list of colors that go well with the theme.
 <br>Here I assume that you already have some experience with this kind of thing. If not, feel free to [contact me](/contact) and I will see if I can do anything to help.
+
+## Acknowledgements
+My thanks to [Greg Rickaby](https://github.com/gregrickaby) for supplying the Genesis Sample theme in a ready SASS structure.
