@@ -1,0 +1,24 @@
+div.gform_wrapper {
+
+	input[type="email"],
+	input[type="text"],
+	textarea,
+	.ginput_complex label {
+		font-size: 18px;
+		padding: 16px;
+	}
+
+	.ginput_complex label {
+		padding: 0;
+	}
+
+	li,
+	form li {
+		margin: 16px 0 0;
+	}
+
+	.gform_footer input[type=submit] {
+		font-size: 16px;
+		padding: 16px 24px;
+	}
+}

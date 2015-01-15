@@ -1,0 +1,55 @@
+.footer-widgets {
+	background-color: #000;
+	clear: both;
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+	&,
+	a {
+		color: #999;
+	}
+
+	input {
+		border: 1px solid #000;
+	}
+
+	a.button,
+	a:hover {
+		color: #fff;
+	}
+
+	li {
+		border-bottom: 1px dotted #666;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.widget {
+		margin-bottom: 40px;
+	}
+
+	p:last-child,
+	ul > li:last-child,
+	.widget:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	width: 340px;
+}
+
+.footer-widgets-1 {
+	margin-right: 60px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}

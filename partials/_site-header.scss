@@ -1,0 +1,61 @@
+.site-header {
+	background-color: $color-secondary;
+	min-height: 100px;
+
+	.wrap {
+	  padding: 15px;
+	}
+}
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	float: left;
+	padding: 10px 0;
+	width: 360px;
+}
+
+.header-full-width {
+	.title-area {
+		width: 100%;
+	}
+}
+
+.site-title {
+	@extend h1;
+
+	a,
+	a:hover {
+	  color: $color-font-light;
+	}
+}
+
+.header-image .site-title > a {
+	background: url(images/logo.png) no-repeat left;
+	float: left;
+	min-height: 60px;
+	width: 100%;
+}
+
+.site-title {
+	margin-bottom: 0;
+}
+
+.header-image {
+	.site-title {
+		display: block;
+		text-indent: -9999px;
+	}
+}
+
+/* Widget Area
+--------------------------------------------- */
+
+.site-header {
+	.widget-area {
+		float: right;
+		text-align: right;
+		width: 740px;
+	}
+}

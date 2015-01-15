@@ -1,0 +1,155 @@
+/* # Genesis child theme for Twenty of Time
+Theme Name: Twenty of Time
+Theme URI: http://www.frisovandijk.com
+Description: Theme for the Twenty of Time blog.
+Author: Friso van Dijk
+Author URI: http://www.frisovandijk.com/
+
+Template: genesis
+
+Tags: TODO
+
+License: MIT
+License URI: http://www.frisovandijk.com/public/MIT-LICENSE.txt
+*
+This is a Genesis child theme created by Friso van Dijk.
+*/
+
+/* # Table of Contents
+- Imports
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Jetpack
+- Site Header
+	- Title Area
+	- Widget Area
+- Site Navigation
+	- Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Media Queries
+	- Retina Display
+	- Max-width: 1200px
+	- Max-width: 960px
+	- Max-width: 800px
+*/
+
+@import "partials/variables";
+@import "partials/mixins";
+
+/*
+HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+@import "partials/reset";
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "partials/defaults";
+
+
+/*
+Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "partials/structure-layout";
+
+
+/*
+Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "partials/common-classes";
+
+
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/widgets";
+
+
+/*
+Plugins
+---------------------------------------------------------------------------------------------------- */
+@import "partials/plugins";
+
+
+/* Gravity Forms
+--------------------------------------------- */
+@import "partials/gravity-forms";
+
+
+/* Jetpack
+--------------------------------------------- */
+@import "partials/jetpack";
+
+
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-header";
+
+
+/*
+Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-navigation";
+
+
+/*
+Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "partials/content-area";
+
+
+/*
+Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "partials/sidebars";
+
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "partials/footer-widgets";
+
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "partials/site-footer";
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "partials/media-queries";

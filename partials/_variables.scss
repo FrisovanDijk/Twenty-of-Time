@@ -1,0 +1,54 @@
+//--------------------------------------------------------------
+// Variables
+//--------------------------------------------------------------
+// My color palette
+// Using colors from http://flatuicolors.com/
+$colors:
+"turquoise"     #1abc9c, // 1
+"emerald"       #2ecc71, // 2
+"greensea"      #16a085, // 3
+"nephritis"     #27ae60, // 4
+"peterriver"    #3498db, // 5
+"belizehole"    #2980b9, // 6
+"amethyst"      #9b59b6, // 7
+"wisteria"      #8e44ad, // 8
+"wetasphalt"    #34495e, // 9
+"midnightblue"  #2c3e50, // 10
+"sunflower"     #f1c40f, // 11
+"orange"        #f39c12, // 12
+"carrot"        #e67e22, // 13
+"pumpkin"       #d35400, // 14
+"alizarin"      #e74c3c, // 15
+"pomegranate"   #c0392b, // 16
+"clouds"        #ecf0f1, // 17
+"silver"        #bdc3c7, // 18
+"concrete"      #95a5a6, // 19
+"asbestos"      #7f8c8d, // 20
+"black"         #000000, // 21
+"white"         #ffffff, // 22
+"custom grey"   #333333, // 23
+"fonts"         #444444; // 24
+
+// Colors
+$color-primary: nth(nth($colors, 16), 2);
+$color-secondary: nth(nth($colors, 23), 2);
+
+$color-site-bg:      nth(nth($colors, 17), 2);
+$color-font:         nth(nth($colors, 24), 2);
+$color-font-light:   nth(nth($colors, 22), 2);
+$color-link:         $color-font;
+$color-link-visited: $color-link;
+$color-link-hover:   $color-primary;
+$color-header-font:  nth(nth($colors, 16), 2);
+
+// Widget colors
+$sidebar-color: nth(nth($colors, 16), 2);
+
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Questrial);  //Roboto Slab, Droid Sans
+
+$font-sans:  "Roboto",sans-serif;   // Body text
+$font-sans-2: "Questrial", sans-serif;       // Headers
+$font-serif: Georgia, Times, "Times New Roman", serif;
+$font-mono:  "Courier 10 Pitch", Courier, monospace;

@@ -1,0 +1,145 @@
+.genesis-nav-menu {
+  clear: both;
+  font-size: 16px;
+  line-height: 1em;
+
+  .menu-item {
+	display: inline-block;
+	text-align: left;
+  }
+
+  ul {
+	transition: max-height .25s linear;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+  }
+
+  li {
+	// visibility transition is on li because multiple transition selectors is not well supported
+	transition: visibility .25s linear;
+	display: inline-block;
+  }
+
+  a {
+	color: $color-font-light;
+	display: block;
+	padding: 30px 24px;
+  }
+
+  a:hover,
+  .current-menu-item > a,
+  .sub-menu .current-menu-item > a:hover {
+	color: $color-link-hover;
+  }
+
+  .sub-menu {
+	left: -9999px;
+	opacity: 0;
+	position: absolute;
+	-webkit-transition: opacity .4s ease-in-out;
+	-moz-transition:    opacity .4s ease-in-out;
+	-ms-transition:     opacity .4s ease-in-out;
+	-o-transition:      opacity .4s ease-in-out;
+	transition:         opacity .4s ease-in-out;
+	width: 200px;
+	z-index: 99;
+
+	a {
+	  background-color: $color-secondary;
+	  border: 1px solid #eee;
+	  border-top: 0;
+	  font-size: 14px;
+	  padding: 20px;
+	  position: relative;
+	  width: 200px;
+	}
+
+	.sub-menu {
+	  margin: -55px 0 0 199px;
+	}
+  }
+
+  .menu-item:hover {
+	position: static;
+
+	> .sub-menu {
+	  left: auto;
+	  opacity: 1;
+	}
+  }
+
+  > .first > a {
+	padding-left: 0;
+  }
+
+  > .last > a {
+	padding-right: 0;
+  }
+
+  > .right {
+	color: #fff;
+	float: right;
+	list-style-type: none;
+	padding: 30px 0;
+  }
+
+  > .right > a {
+	display: inline;
+	padding: 0;
+  }
+
+  > .rss > a {
+	margin-left: 48px;
+  }
+
+  > .search {
+	padding: 10px 0 0;
+  }
+}
+
+/* Site Header Navigation
+--------------------------------------------- */
+
+.site-header {
+
+  .sub-menu {
+	border-top: 1px solid #eee;
+
+	.sub-menu {
+	  margin-top: -56px;
+	}
+  }
+
+  .genesis-nav-menu li li {
+	margin-left: 0;
+  }
+}
+
+/* Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+  background-color: #333;
+
+  a {
+	color: #fff;
+  }
+
+  .sub-menu a {
+	color: #333;
+  }
+
+  a:hover,
+  .current-menu-item > a,
+  .sub-menu .current-menu-item > a:hover {
+	color: #e5554e;
+  }
+}
+
+/* Secondary Navigation
+--------------------------------------------- */
+
+.nav-secondary {
+  background-color: #fff;
+}
