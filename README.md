@@ -4,7 +4,7 @@ I have been working on a weblog recently, trying to hit that sweet spot between 
 ## Set-up
 Download the zip file and upload it as a theme on your WordPress installation. The menu is featured in the right-header sidebar, so create a menu widget (in appearance > widgets) and add your main menu there. That's all there is to it, enjoy!
 
-<img src="/public/git/twentyoftime/screenshot.png" alt="twenty of time theme" />
+<img src="http://www.frisovandijk.com/public/git/twentyoftime/screenshot.png" alt="twenty of time theme" />
 
 ## Design
 I tried to keep as much user freedom in the theme, whilst trying to keep it as clean as possible for personal use. As with all designs I make it's easy to pick different colours and match them as you wish. More on that below.
