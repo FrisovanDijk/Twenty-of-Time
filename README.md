@@ -1,4 +1,14 @@
 # Twenty of Time - A WordPress Genesis Child Theme
+# Tasty 
+
+**Contributors**:  
+
+* Friso van Dijk ( [@frisovandijk](http://twitter.com/frisovandijk ) / [frisovandijk.com](http://frisovandijk.com/) )  
+
+**Version**: 1.0  
+**Created on**: WordPress 4.1, Genesis 2.1  
+**License**: MIT  
+
 I have been working on a weblog recently, trying to hit that sweet spot between a functional theme and a minimal lay-out. I tried to remove all clutter, whilst still being able to use it with any preferred lay-out style. The main content area is moved up a bit, to give the whole a more dynamic feel. Right now I use it on [Twenty of Time](http://www.twentyoftime.com)
 
 ## Set-up
@@ -14,7 +24,7 @@ I tried to keep as much user freedom in the theme, whilst trying to keep it as c
 As with most themes I publish, they are made for personal use and can be modified freely. It comes with the [MIT-License](/public/MIT-LICENSE.txt), so please credit me for the work done.
 
 ### Deleting the Created By
-This is an easy part to remove. When you have the theme installed, go to *Appearance > Editor*. On the right sidebar, select `functions.php`. Scroll to the bottom and look for this line: `<p>© 2015 <?php echo get_bloginfo('name'); ?> · Design by <a href="http://www.frisovandijk.com" target="_blank">Friso van Dijk</a></p>`.
+This is an easy part to remove. When you have the theme installed, go to *Appearance > Editor*. On the right sidebar, select `functions.php`. Scroll to the bottom and look for this line: `<p>Â© 2015 <?php echo get_bloginfo('name'); ?> Â· Design by <a href="http://www.frisovandijk.com" target="_blank">Friso van Dijk</a></p>`.
 <br>You can safely remove anything from `Design by` up to `</a>`. The first time shows the copyright notice on 2015 with your blog name. Easily customise this with some html.
 
 ### Editing the colors
