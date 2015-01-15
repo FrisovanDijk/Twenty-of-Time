@@ -1,6 +1,4 @@
 # Twenty of Time - A WordPress Genesis Child Theme
-# Tasty 
-
 **Contributors**:  
 
 * Friso van Dijk ( [@frisovandijk](http://twitter.com/frisovandijk ) / [frisovandijk.com](http://frisovandijk.com/) )  
