@@ -9,6 +9,8 @@
 
 # DEPRECATED
 
+_This theme is out of date and has seen no updates in years. It no longer works correctly._
+
 I have been working on a weblog recently, trying to hit that sweet spot between a functional theme and a minimal lay-out. I tried to remove all clutter, whilst still being able to use it with any preferred lay-out style. The main content area is moved up a bit, to give the whole a more dynamic feel. Right now I use it on [Twenty of Time](http://www.twentyoftime.com)
 
 ## Set-up
